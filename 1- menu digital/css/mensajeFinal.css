@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.mesero{
+    width: 300px;
+    height: 300px;
+}
+.p1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.p2{
+    font-size: 30px;
+    font-weight: 400px;
+}
+.boton{
+    background-color: #44ea7c;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    border-radius: 15px;
+}
+.flecha{
+    width: 25px;
+    height: 25px;
+}

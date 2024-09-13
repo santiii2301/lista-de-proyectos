@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    padding: 0 20% 0 20%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #001aff21;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.logo_nettside{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.texto_logo{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.boton1{
+    color: #44ea7c;
+    background: none; 
+    border: none;
+    padding: 0; 
+    margin-right: 20px;
+    font: inherit; 
+    cursor: pointer;
+    transition: .5s;
+}
+.boton1:hover{
+    font-size: 20px;
+    transition: .5s;
+}
+.boton2{
+    color: #fff;
+    font-weight: bold;
+    background: #44ea7c; 
+    border: none;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    transition: .5s;
+}
+.boton2:hover{
+    transition: .5s;
+    padding:13px 25px 13px 25px;
+}
+.cuerpo{
+    width: 100%;
+    height: 85%;
+    padding: 0 10% 0 10%;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.frase_1{
+    font-size: 75px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block; 
+    border-radius: 50%;
+    border-top: 5px solid #44ea7c; 
+    border-bottom: 5px solid #44ea7c;
+}
+.frase_2{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300 !important;
+}
+.botones_2{
+    display: flex;
+
+}
+.btn1_1, .btn_2{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.btn1{
+    color: #fff;
+    font-weight: bold;
+    background: none; 
+    border:1px solid #44ea7c;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: .5s;
+    display: flex;
+    gap: 10px;
+}
+.btn1:hover{
+    transition: .5s;
+    padding:13px 25px 13px 25px;
+    background-color: #44ea7c;
+}
+.btn2{
+    color: #fff;
+    font-weight: bold;
+    background: none; 
+    border:1px solid #44ea7c;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    margin-right: 20px;
+    transition: .5s;
+    display: flex;
+    gap: 10px;
+}
+.btn2:hover{
+    transition: .5s;
+    padding:13px 25px 13px 25px;
+    background-color: #44ea7c;
+}
