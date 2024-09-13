@@ -138,7 +138,7 @@ body{
 }
 
 .tablaRegistro .header h1{
-    margin: 0;
+    margin: 10px 0;
 }
 .opcionesRegistro{
     display: flex;
@@ -176,6 +176,10 @@ body{
 .contenidoCliente div{
     height: 50px;
     width: 40%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
 }
@@ -189,5 +193,21 @@ body{
     width: 100%;
 }
 .par{
-    background: #adadad;
+    background: #e0e0e0;
+}
+.ingresos{
+    color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    border: none !important;
+}
+.pagos, .retiros{
+    font-size: 20px;
+    font-weight: bold;
+}
+.salidaDinero{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    border: none !important;
 }
