@@ -1,11 +1,12 @@
-let menuhamburguesa = document.querySelector(".menuhamburguesa")
-let contenHamburguesa = document.querySelector(".contenHamburguesa")
+const contenHamburguesa = document.querySelector(".contenHamburguesa");
+const burgerCheckbox = document.getElementById("burger");
 
-
-menuhamburguesa.addEventListener("click", (e) => {
-    
-    if (condition) {
-        
+burgerCheckbox.addEventListener("change", (e) => {
+    if (burgerCheckbox.checked) {
+        contenHamburguesa.style.right = "0"; // Mover el menú a la vista
+    } else {
+        contenHamburguesa.style.right = "-800px"; // Volver a ocultarlo
     }
-    contenHamburguesa.style.display = "block";
 });
+
+
